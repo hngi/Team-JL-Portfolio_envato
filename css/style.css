@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@media screen and (max-width: 480px) {
+    .logan{
+        display: none;
+    }
+    
+}
+
+
+.logan{
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+.left-img-in{
+    visibility: hidden;
+    border:0px solid black;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .left-img-in{
+        display: block;
+        display: inline;
+        visibility: visible;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .row-about{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+body{
+    font-family: 'Domine', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumb-img{
+    margin: 2%;
+}
+.introduction{
+    font-size: 1.3vw;
+    margin-top: 7%;
+      background-image: url(../img/400027300968_200230.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+
+img{
+    max-width: 100%;
+}
+
+textarea{
+    margin-top: 7%;
+}
+
+.input{
+    border: 0px solid black;
+    border-bottom: 2px solid black;
+    padding: 2%;
+    }
+
+.subheading{
+    margin: 3%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.gallery{
+    overflow-x: auto;
+}
+
+.arrow{
+    background-color: #006CFF;
+    padding: 15px 10px;
+    border-radius: 60%;
+}
+.arrow-text{
+    letter-spacing: 10px;
+}
+
+.latest-card{
+margin-bottom: 4%;    
+}
+
+.blue-arrow{
+    float: right;
+    background-color: white;
+    padding:10px;
+    border-radius: 60%;
+}
+
+.sponsors{
+    margin: 5%;
+}
+.portfolio-arrow{
+     background-color: white;
+    padding: 15px 10px;
+    border-radius: 60%;
+}
+.explain{
+    font-size: 1.5vw;
+}
+
+.explain-primary{
+    background-color: white;
+    border: 1px solid #006CFF;
+    color: #006CFF;
+    font-size: 1.3vw;
+    padding: 3%;
+    margin-top: 1%;
+}
+.footer{
+    text-align: center;
+    font-size: 1.4vw;
+}
+.footer1{
+     margin-left: 1.5%;
+}
+.footer-inner{
+    margin:0.7%;
+}
