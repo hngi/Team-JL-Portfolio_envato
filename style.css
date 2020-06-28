@@ -32,6 +32,10 @@ body{
     color:#E10D0D !important;
 }
 
+.head{
+    margin-top: 100px;
+}
+
 .header-text{
     text-align: center;
     font-weight: 700;
@@ -111,6 +115,7 @@ body{
 }
 
 .new-footer{
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -140,6 +145,14 @@ svg{
         padding-right: 0;
         text-align: center;
         float: none !important;
+    }
+    .p-text{
+        font-size: 17px;
+        font-weight: 500 !important;
+        line-height: 36px;
+    }
+    .head{
+        margin-top: 70px;
     }
     .p-text-2{
         margin-top: 20px;
@@ -174,5 +187,57 @@ svg{
 @media(min-width:992px){
     .extra-text-2{
         display: none;
+    }
+}
+@media(max-width:500px){
+    .header-text{
+        font-size: 20px;
+    }
+    .head{
+        margin-top: 0px;
+    }
+    .p-text{
+        font-size: 13.5px;
+        font-weight: 500 !important;
+        line-height: 36px;
+    }
+    .p-text-2{
+        font-size: 13px;
+        font-weight: 500 !important;
+        line-height: 36px;
+    }
+    .p-head-1{
+        font-size: 33px !important;
+        padding-top: 20px;
+    }
+    .foot-text{
+        font-size: 100%;
+        padding: 0;
+    }
+
+    .foot-text-2{
+        font-size: 15px;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 22px;
+        background: #E10D0D;
+        border: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .new-footer{
+        padding-top: 0px;
+        padding-bottom:10px;
+    }
+
+    svg{
+        width: 50;
+        height: 50;
     }
 }
