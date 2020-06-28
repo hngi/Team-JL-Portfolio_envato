@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .image-gallery{
     box-sizing: border-box;
 
@@ -36,42 +35,3 @@
     border-bottom: 1px solid #999999;
     margin-bottom: 10%;
 }
-=======
-.image-gallery{
-    box-sizing: border-box;
-
-    width: 90vw;
-}
-
-.gallery-column{
-    border-right: 1px solid #777777;
-  
-   
-}
-
-.gallery-image-box{
-    border-bottom: 1px solid #777777;
-    padding: 5% 5%;
-    
-}
-
-.about-me{
-
-    box-sizing: border-box;
-
-    width: 90vw!important;
-    border-left: 1px solid #777777;
-    border-right: 1px solid #777777;
-    padding-top: 10vh;
-}
-
-.about-me-list{
-    width: 80%;
-}
-.about-me-item{
-    font-size: medium;
-    padding-bottom: 3%;
-    border-bottom: 1px solid #999999;
-    margin-bottom: 10%;
-}
->>>>>>> Stashed changes
