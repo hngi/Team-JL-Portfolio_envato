@@ -1,0 +1,32 @@
+.journal-image-pane{
+    border-right: 1px solid #777777 ;
+    border-left: 1px solid #777777 ;
+}
+
+.journal-image-text{
+    position: absolute;
+   
+    z-index: 2;
+
+}
+
+.form-control,.md-form label {
+    color: #dadada!important;
+}
+
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly])+label{
+    color: #fefefe!important;
+}
+.md-form textarea[type="text"]:not(.browser-default):focus:not([readonly])+label{
+    color: #fefefe!important;
+}
+
+.form-control:focus{
+    border-bottom: 1px solid #fefefe!important;
+ 
+    box-shadow: 0 1px 0 0 #555!important;
+}
+
+.footer,.contact{
+    max-width: 90vw;
+}
