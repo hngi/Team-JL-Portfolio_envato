@@ -2,6 +2,19 @@ nav{
     background-color: #000;
 }
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FF49C8 !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 .navbar-section .nav-item:hover .nav-link {
     color: #FF49C8;
 }
@@ -16,12 +29,21 @@ button span{
     color: #FFFFFF;
 }
 
+
 .welcome{
     background-color: #000;
 }
 
+.paragraph1{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 36px;
+}
+
 .welcome-section{
-    background-image: url('images/img.jpg');
+    background-image: url('images/img.jpg') ;
     background-repeat: no-repeat;
 }
 
@@ -30,24 +52,11 @@ button span{
 }
 
 .logo span{
-    font-family: Montserrat, cursive;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 35px;
-}
-
-a{
-    color: #000;
-    font-family: Montserrat, cursive;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
-}
-
-a:hover{
-    text-decoration-color: #FF49C8;
-    cursor: pointer;
 }
 
 h3 .purple-color{
@@ -61,24 +70,42 @@ h3 .purple-color{
 }
 
 h3 span{
-font-family: Playfair Display SC, sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-line-height: 36px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 36px;
 }
 
 .paragraph{
     font-family: Montserrat, cursive;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 26px;
     line-height: 30px;
+    color: #FFFFFF;
 }
 
 .starting-button button{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
     border-radius: 30px;
-    height: 50px;
+    height: 58px;
+}
+
+.portfolio .portfolio-link .link{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000;
+}
+
+.portfolio .portfolio-link .active>.link, .portfolio .portfolio-link .link.active, .portfolio .portfolio-link .link.show, .portfolio .portfolio-link .show>.link {
+    color: #FF49C8;
 }
 
 .purple-line{
@@ -87,7 +114,7 @@ line-height: 36px;
 }
 
 .about-paragraph{
-    font-family: Playfair Display SC, sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -95,53 +122,62 @@ line-height: 36px;
 
 }
 
+.text{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+
 .portfolio-body{
     color: #F2F2F2;
 }
 
 .main-paragraph{
-    font-family: Playfair Display SC, sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    color: #222222;
+    font-size: 21px;
+    line-height: 24px;
+    color: #000;
 }
 
 .service{
     background-color: #EEEDEC;
 }
 .service-paragraph{
-    font-family: Montserrat, cursive;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 26px;
-    color: #222222;
+    color: #000 !important;
 
 }
 
 .subheading{
-    font-family: Playfair Display SC, sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
-    color: #222222;
+    line-height: 20px;
+    color: #000;
 }
 
 .subheading-p{
-    font-family: Montserrat,cursive;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    color: #222222;
+    color: #000;
 
 }
 
 .portfolio-link{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -158,8 +194,14 @@ line-height: 36px;
 
 .quote-button button{
     background-color: #FF49C8;
-    height: 50px;
+    height: 58px;
     border-radius: 30px;
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .contact{
@@ -167,7 +209,7 @@ line-height: 36px;
 }
 
 .contact-heading{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
@@ -176,15 +218,19 @@ line-height: 36px;
 }
 
 .text-color{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 17px;
     color: #FF49C8;
-
 }
 
+.images{
+    width: 300px;
+    height: 208px;
+    object-fit: fill;
+}
 input{
     background: #FFFFFF;
     border: 1px solid #BBBBBB;
@@ -206,6 +252,24 @@ input{
     background-color: #FF49C8;
 }
 
+.paragraph-section{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase ;
+}
+
+.subsection{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
 [class*='col-lg-2']{
     margin-right: 2%;
     margin-bottom: 10px;
@@ -217,12 +281,7 @@ input{
     
 }
 
-@media only screen and(min-width: 900px){
-    .text{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 17px;
-    }
+[class^='flaticon-']::before{
+    color: #fff;
 }
+

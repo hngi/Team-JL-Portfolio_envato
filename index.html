@@ -7,16 +7,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font/flaticon.css">
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>A-Z CREATIVES</title>
   </head>
   <body>
     <!--navbar section-->
-    <nav class="navbar navbar-expand-md navbar-section sticky-top">
+    <nav class="navbar navbar-expand-md navbar-section navbar-light sticky-top">
       <a href="index.html" class="navbar-brand logo-brand">
         <div class="logo border border-white text-white">
-          <span class="text-center px-2">A - Z Creatives</span>
+          <span class="text-center p-3">A - Z Creatives</span>
         </div>
       </a>
       <!--Collapsible Button-->
@@ -49,17 +50,15 @@
     </nav>
     <!--introductory section-->
     <section class="welcome w-100 h-100" id="welcome">
-      <div class="welcome-section img-fluid">
+      <div class="welcome-section overlay bg-black bg-a-20 img-fluid">
         <div class="white-line"></div>
-        <div class=" row mt-5">
+        <div class=" row paragraph1 mt-5">
           <div class="col">
             <h3 class="text-center">
-              <span class="purple-color">CREATIVITY</span
-              ><span class="text-white"> IS</span>
+              <span class="purple-color">CREATIVITY</span> <span class="text-white"> IS</span>
             </h3>
             <h3 class="text-center">
-              <span class="purple-color">INTELLIGENCE</span
-              ><span class="text-white"> HAVING FUN</span>
+              <span class="purple-color">INTELLIGENCE</span> <span class="text-white"> HAVING FUN</span>
             </h3>
             <div class="pt-3">
               <p class="paragraph text-center text-white">
@@ -78,7 +77,7 @@
       <!--About section-->
     </section>
     <section class="container bg-white mt-5 mr-5" id="about">
-        <div class="about-paragraph text-dark">
+        <div class="about-paragraph">
             <p>ABOUT A - Z CREATIVES</p>
             <div class="purple-line"></div>
         </div>
@@ -87,7 +86,7 @@
                 <img src="images/img1.jpg" class="img-fluid" alt="" />
             </div>
             <div class="col-lg-6 text">
-              <p>
+              <p class="">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa,
                   veniam. Aperiam fugiat minus, nobis soluta doloremque, optio vero
                   consequatur voluptatum reprehenderit asperiores sint debitis alias.
@@ -96,7 +95,7 @@
             </div>
         </div>
         <div class="my-5">
-            <p class="main-paragraph text-center mx-3 px-3">
+            <p class="main-paragraph text-left">
             Our personal and effective approach to every projects we work on, is
             why our clients keep coming back.
             </p>
@@ -105,7 +104,7 @@
 
     <!--Services section-->
     <section class="container-fluid service px-5" id="services">
-      <div class="about-paragraph text-dark pt-5">
+      <div class="about-paragraph pt-5">
         <p>OUR SERVICES</p>
         <div class="purple-line"></div>
       </div>
@@ -128,6 +127,7 @@
           </p>
         </div>
         <div class="col-lg-2">
+          
           <h3 class="sub-heading subheading">UX AUDIT</h3>
           <p class="subheading-p">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
@@ -167,17 +167,17 @@
     </section>
 
     <!--Portfolio Section-->
-    <section class="container portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="about-paragraph text-dark pt-5">
             <p>PORTFOLIO</p>
             <div class="purple-line"></div>
         </div>
-        <div>
+        <div class="mt-5">
             <img src="images/image2.jpg" class="img-fluid" alt="" />
         </div>
-        <div class="portfolio-link">
-            <p>PROJECTS</p>
-            <a href="#" class="link pl-3">ALL</a>
+        <div class="portfolio-link mt-5">
+            <a href="#" class="link">PROJECTS</a>
+            <a href="#" class="link active pl-3">ALL</a>
             <a href="#" class="link pl-3">UX RESEARCH</a>
             <a href="#" class="link pl-3">UX AUDIT</a>
             <a href="#" class="link pl-3">UI DESIGN</a>
@@ -189,7 +189,7 @@
             <div class="row">
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img3.jpg" class="img-fluid" alt="" />
+                        <img src="images/img3.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -202,7 +202,7 @@
                 </div>
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img4.jpg" class="img-fluid" alt="" />
+                        <img src="images/img4.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img5.jpg" class="img-fluid" alt="" />
+                        <img src="images/img5.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -230,7 +230,7 @@
             <div class="row">
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img6.jpg" class="img-fluid" alt="" />
+                        <img src="images/img6.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -243,7 +243,7 @@
                 </div>
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img7.jpg" class="img-fluid" alt="" />
+                        <img src="images/img7.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -257,7 +257,7 @@
         
                 <div class="col-lg-3 card border-0">
                     <div class="card-img">
-                        <img src="images/img8.jpg" class="img-fluid" alt="" />
+                        <img src="images/img8.jpg" class="images" alt="" />
                     </div>
                     <div class="card-body portfolio-body text-dark">
                         <div class="card-title">
@@ -339,7 +339,7 @@
                   </div>
                 </div>
                 <div class=" col text-center quote-button">
-                    <button class="btn text-dark px-3">GET A QUOTE</button>
+                    <button class="btn text-white px-3">GET A QUOTE</button>
                 </div>
         </section>
 
@@ -365,22 +365,22 @@
                 <form action="">
                     <div>
                         <label for="">Email</label><br>
-                        <input type="text" placeholder="you@example.com">
+                        <input type="text" class="shadow" placeholder="you@example.com">
                     </div>
                     <div class="mt-3">
                         <label for="">Full Name</label><br>
-                        <input type="text" placeholder="Enter Fullname">
+                        <input type="text" class="shadow" placeholder="Enter Fullname">
                     </div>
                     <div class="mt-3">
                         <label for="">Subject</label><br>
-                        <input type="text" placeholder="Enter Subject">
+                        <input type="text" class="shadow" placeholder="Enter Subject">
                     </div>
                     <div class="mt-3">
                         <label for="">Meassage</label><br>
                         <textarea name="" id="" cols="40" rows="10" placeholder="Type Message"></textarea>
                     </div>
                     <div class="quote-button pt-3">
-                        <button class=" btn text-dark px-3">SEND MESSAGE</button>
+                        <button class=" btn text-white px-3">SEND MESSAGE</button>
                     </div>
                 </form>
             </div>
@@ -388,25 +388,29 @@
     </section>
     <footer class="mt-5">
         <section  class="footer-section">
-            <div class="row">
+            <div class="row pt-5">
                 <div class="col-lg-3 text-white pl-5">
-                    <p>CONTACT US</p>
-                    <li>A-Z Creatives Ltd.</li>
-                    <li>113, Oshodi-Apapa Expressway, 23401, Lagos</li>
-                    <li>+234 7894 367 434</li>
-                    <li>enquires@a-zcreatives.com</li>
-                    <li class="pt-5">Connect With Us</li>
-                    <li><i></i> <i></i> <i></i></li>
+                    <p class="paragraph-section">CONTACT US</p>
+                    <li class="subsection">A-Z Creatives Ltd.</li>
+                    <li class="subsection">113, Oshodi-Apapa Expressway, 23401, Lagos</li>
+                    <li class="subsection">+234 7894 367 434</li>
+                    <li class="subsection">enquires@a-zcreatives.com</li>
+                    <li class="subsection pt-5">Connect With Us</li>
+                    <li>
+                      <a href="#"><i class="flaticon-facebook"></i></a> 
+                      <a href="#"><i class="flaticon-twitter-square-logo"></i></a> 
+                      <a href="#"><i class="flaticon-instagram-1"></i></a>
+                    </li>
                 </div>
                 <div class="col-lg-3 text-white pl-5">
-                    <p>HELP</p>
-                    <li>Help Center</li>
-                    <li>Become An Affiliate</li>
+                    <p class="paragraph-section">HELP</p>
+                    <li class="subsection">Help Center</li>
+                    <li class="subsection">Become An Affiliate</li>
                 </div>
                 <div class="col-lg-3 text-white pl-5">
-                    <p>AUTHOR</p>
-                    <li>Become An Author</li>
-                    <li>Author Sign In</li>
+                    <p class="paragraph-section">AUTHOR</p>
+                    <li class="subsection">Become An Author</li>
+                    <li class="subsection">Author Sign In</li>
                 </div>
             </div>
         </section>

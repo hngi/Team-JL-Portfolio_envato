@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 26/06/2020 23:42
+    Creation date: 28/06/2020 19:06
     */
 
     @font-face {
@@ -37,26 +37,22 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-user:before { content: "\f100"; }
-.flaticon-email:before { content: "\f101"; }
-.flaticon-email-1:before { content: "\f102"; }
-.flaticon-envelope:before { content: "\f103"; }
-.flaticon-bell:before { content: "\f104"; }
-.flaticon-gear:before { content: "\f105"; }
-.flaticon-search:before { content: "\f106"; }
-.flaticon-lock:before { content: "\f107"; }
-.flaticon-facebook:before { content: "\f108"; }
-.flaticon-github-1:before { content: "\f109"; }
-.flaticon-google-plus:before { content: "\f10a"; }
+    .flaticon-right:before { content: "\f100"; }
+.flaticon-youtube:before { content: "\f101"; }
+.flaticon-facebook-1:before { content: "\f102"; }
+.flaticon-twitter-1:before { content: "\f103"; }
+.flaticon-instagram-1:before { content: "\f104"; }
+.flaticon-facebook:before { content: "\f105"; }
+.flaticon-twitter:before { content: "\f106"; }
+.flaticon-twitter-square-logo:before { content: "\f107"; }
+.flaticon-instagram:before { content: "\f108"; }
     
-    $font-Flaticon-user: "\f100";
-    $font-Flaticon-email: "\f101";
-    $font-Flaticon-email-1: "\f102";
-    $font-Flaticon-envelope: "\f103";
-    $font-Flaticon-bell: "\f104";
-    $font-Flaticon-gear: "\f105";
-    $font-Flaticon-search: "\f106";
-    $font-Flaticon-lock: "\f107";
-    $font-Flaticon-facebook: "\f108";
-    $font-Flaticon-github-1: "\f109";
-    $font-Flaticon-google-plus: "\f10a";
+    $font-Flaticon-right: "\f100";
+    $font-Flaticon-youtube: "\f101";
+    $font-Flaticon-facebook-1: "\f102";
+    $font-Flaticon-twitter-1: "\f103";
+    $font-Flaticon-instagram-1: "\f104";
+    $font-Flaticon-facebook: "\f105";
+    $font-Flaticon-twitter: "\f106";
+    $font-Flaticon-twitter-square-logo: "\f107";
+    $font-Flaticon-instagram: "\f108";
