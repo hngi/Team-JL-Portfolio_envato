@@ -1,530 +1,495 @@
 :root {
-    --white: #fff;
+--white: #fff;
 }
-
 body {
-    font-family: 'Work sans';
+font-family: 'Work sans';
 }
-
 #title {
-    background-color: var(--white);
+background-color: var(--white);
 }
-
 .container-fluid {
-    padding: 2% 7%;
+padding: 2% 7%;
 }
-
 .navbar {
-    padding: 0 0 2rem;
+padding: 0 0 2rem;
 }
-
 .navbar-brand {
-    font-size: 24px;
+font-size: 24px;
 }
-
 .nav-text {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.003em;
-    color: #000000;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.003em;
+color: #000000;
 }
-
 .row.title {
-    background: url("./image/image/Frame\ 3\ \(1\).jpg") no-repeat center center/cover;
-    height: 100vh;
+background: url("./image/image/Frame\ 3\ \(1\).jpg") no-repeat center center/cover;
+height: 100vh;
 }
-
 .row.title p {
-    font-family: Work Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
 }
-
 .try {
-    height: 500px;
+height: 500px;
 }
-
 .trry {
-    height: 501px;
+height: 501px;
 }
-
 .gallery {
-    width: 96%;
+width: 96%;
 }
-
 .title-image {
-    width: 100%;
-    height: 99%;
+width: 100%;
+height: 99%;
 }
-
 #title-text {
-    padding: 17% 0;
+padding: 17% 0;
 }
-
 #title-text h1 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 96px;
-    line-height: 105.3%;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 105.3%;
 }
-
 h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 105.3%;
-    /* or 25px */
-    text-align: center;
-    letter-spacing: 0.53em;
-    text-transform: uppercase;
-    padding-bottom: 5%;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 105.3%;
+/* or 25px */
+text-align: center;
+letter-spacing: 0.53em;
+text-transform: uppercase;
+padding-bottom: 5%;
 }
-
 #about {
-    padding-bottom: 2%;
+padding-bottom: 2%;
 }
-
 .about-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-    text-align: justify;
-    padding: 17% 0;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: justify;
+padding: 17% 0;
 }
-
 .btn {
-    border: 2px solid #006CFF;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    /* identical to box height, or 133% */
-    color: #006CFF;
+border: 2px solid #006CFF;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+color: #006CFF;
 }
-
 .btn:hover {
-    background: #006aff80;
-    color: var(--white);
+background: #006aff80;
+color: var(--white);
 }
-
 .btn-secondary {
-    background-color: #006CFF;
-    color: var(--white);
+background-color: #006CFF;
+color: var(--white);
 }
-
 .bt .image-text {
-    position: relative;
-    text-align: center;
-    color: var(--white);
+position: relative;
+text-align: center;
+color: var(--white);
 }
-
 .text-bottom {
-    position: absolute;
-    left: 90px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 105.3%;
-    /* or 14px */
-    letter-spacing: 0.615em;
-    text-align: center;
-    text-transform: uppercase;
-    height: 15.73px;
-    top: 496.16px;
+position: absolute;
+left: 90px;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 105.3%;
+/* or 14px */
+letter-spacing: 0.615em;
+text-align: center;
+text-transform: uppercase;
+height: 15.73px;
+top: 496.16px;
 }
-
 .top-text {
-    position: absolute;
-    left: 76px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 105.3%;
-    /* or 38px */
-    letter-spacing: 0.03em;
-    text-align: left;
-    width: 304.17px;
-    height: 137.96px;
-    top: 66.56px;
-    color: var(--white);
+position: absolute;
+left: 76px;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 105.3%;
+/* or 38px */
+letter-spacing: 0.03em;
+text-align: left;
+width: 304.17px;
+height: 137.96px;
+top: 66.56px;
+color: var(--white);
 }
-
 .arrow-black {
-    color: var(--white);
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background: transparent;
-    border-width: 10px;
+color: var(--white);
+border: 1px solid transparent;
+border-radius: 50%;
+background: transparent;
+border-width: 10px;
 }
-
 .port {
-    padding-right: 4rem;
+padding-right: 4rem;
 }
-
 .port-img {
-    height: 600.3px;
-    width: 399.37px;
-    padding: 2rem;
+height: 600.3px;
+width: 399.37px;
+padding: 2rem;
 }
-
 #deals {
-    text-align: center;
-    margin: 132px 132px 20px 0px;
+text-align: center;
+margin: 132px 132px 20px 0px;
 }
-
 .deals-logo {
-    padding-right: 12px;
-    padding-bottom: 22px;
+padding-right: 12px;
+padding-bottom: 22px;
 }
-
 .deal-img {
-    padding-top: 2rem;
-    padding-right: 1rem;
+padding-top: 2rem;
+padding-right: 1rem;
 }
-
 .input {
-    border: 0px solid black;
-    border-bottom: 2px solid black;
-    padding: 5%;
-    width: 100%;
+border: 0px solid black;
+border-bottom: 2px solid black;
+padding: 5%;
+width: 100%;
 }
-
 .col-lg form {
-    padding-right: 22px;
-    padding-left: 22px;
+padding-right: 22px;
+padding-left: 22px;
 }
-
 @media screen and (min-width:1054px) {
-    .no {
-        display: none;
-    }
-    .carousel.slide {
-        display: none;
-    }
-    #carousell {
-        display: none;
-    }
+.no {
+display: none;
 }
-
+.carousel.slide {
+display: none;
+}
+#carousell {
+display: none;
+}
+}
 @media (max-width: 992px) and (min-width:620px) {
-    .container-fluid {
-        padding: 2% 12%;
-    }
-    .row.title p {
-        font-size: 16px;
-        line-height: 21px;
-    }
-    .not,
-    .title-image {
-        height: 98%;
-    }
-    .no {
-        display: none;
-    }
-    h2 {
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 32px;
-        font-size: 24px;
-    }
-    .abt-p {
-        padding-right: 1rem;
-    }
-    #title-text h1 {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 58px;
-        line-height: 105.3%;
-        /* or 51px */
-    }
-    .image-text {
-        width: 307.92px;
-    }
-    .no {
-        margin-bottom: 5px;
-        margin-top: -32px;
-        width: 90%;
-        border-radius: 20px 72px 0px 980px;
-        padding-bottom: 72px;
-    }
-    #title-text {
-        padding: 135% 7px;
-    }
-    .port-img {
-        display: none;
-    }
-    .w-100 {
-        height: 741px;
-    }
-    .text-bottom {
-        position: absolute;
-        left: 8px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 11px;
-        line-height: 105.3%;
-        /* or 14px */
-        letter-spacing: 0.615em;
-        text-align: center;
-        text-transform: uppercase;
-        height: 15.73px;
-        top: 376.16px;
-        color: var(--white);
-    }
-    .text-bottom-2-2 {
-        position: absolute;
-        left: 8px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 11px;
-        /* or 14px */
-        text-align: left;
-        top: 356.16px;
-        color: var(--white);
-    }
-    .text-bottom-2-1 {
-        color: #006CFF;
-        left: 5px;
-        position: absolute;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 26px;
-        /* or 14px */
-        text-align: left;
-        top: 376.16px;
-    }
-    .arrow-black-right {
-        top: 376.16px;
-        color: var(--white);
-        position: absolute;
-        font-style: normal;
-        right: 10px;
-        font-size: 16px;
-    }
-    .top-text {
-        position: absolute;
-        left: 14px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 53px;
-        line-height: 105.3%;
-        /* or 38px */
-        letter-spacing: 0.03em;
-        text-align: left;
-        width: 184.17px;
-        height: 37.96px;
-        top: 66.56px;
-        color: var(--white);
-    }
-    #deals {
-        margin: 0;
-    }
-    .deals-logo {
-        display: inline-block;
-        margin: 20px 0;
-    }
-    .dea {
-        display: none;
-    }
-    img.d-block.w-1oo.dealer {
-        width: 430px
-    }
-    .gallery {
-        width: 100%;
-    }
-    .dry {
-        width: 107%;
-    }
-    .gry {
-        width: 168%;
-        padding-bottom: 10px;
-    }
-    .fry {
-        width: 228%;
-    }
-    .map {
-        height: 420px;
-        width: 285px;
-        padding-bottom: 12px;
-    }
-    .form-group {
-        text-align: center;
-        width: 100%;
-    }
-    .btn-secondary {
-        margin-left: 35px;
-    }
-    .input {
-        width: 100%;
-    }
-    form {
-        width: 100%;
-    }
+.container-fluid {
+padding: 2% 12%;
 }
-
+.row.title p {
+font-size: 16px;
+line-height: 21px;
+}
+.not,
+.title-image {
+height: 98%;
+}
+.no {
+display: none;
+}
+h2 {
+text-align: center;
+padding-top: 5%;
+padding-bottom: 32px;
+font-size: 24px;
+}
+.abt-p {
+padding-right: 1rem;
+}
+#title-text h1 {
+font-style: normal;
+font-weight: 600;
+font-size: 58px;
+line-height: 105.3%;
+/* or 51px */
+}
+.image-text {
+width: 307.92px;
+}
+.no {
+margin-bottom: 5px;
+margin-top: -32px;
+width: 90%;
+border-radius: 20px 72px 0px 980px;
+padding-bottom: 72px;
+}
+#title-text {
+padding: 135% 7px;
+}
+.port-img {
+display: none;
+}
+.w-100 {
+height: 741px;
+}
+.text-bottom {
+position: absolute;
+left: 8px;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 105.3%;
+/* or 14px */
+letter-spacing: 0.615em;
+text-align: center;
+text-transform: uppercase;
+height: 15.73px;
+top: 376.16px;
+color: var(--white);
+}
+.text-bottom-2-2 {
+position: absolute;
+left: 8px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+/* or 14px */
+text-align: left;
+top: 356.16px;
+color: var(--white);
+}
+.text-bottom-2-1 {
+color: #006CFF;
+left: 5px;
+position: absolute;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+/* or 14px */
+text-align: left;
+top: 376.16px;
+}
+.arrow-black-right {
+top: 376.16px;
+color: var(--white);
+position: absolute;
+font-style: normal;
+right: 10px;
+font-size: 16px;
+}
+.top-text {
+position: absolute;
+left: 14px;
+font-style: normal;
+font-weight: 500;
+font-size: 53px;
+line-height: 105.3%;
+/* or 38px */
+letter-spacing: 0.03em;
+text-align: left;
+width: 184.17px;
+height: 37.96px;
+top: 66.56px;
+color: var(--white);
+}
+#deals {
+margin: 0;
+}
+.deals-logo {
+display: inline-block;
+margin: 20px 0;
+}
+.dea {
+display: none;
+}
+img.d-block.w-1oo.dealer {
+width: 430px
+}
+.gallery {
+width: 100%;
+}
+.dry {
+width: 107%;
+}
+.gry {
+width: 168%;
+padding-bottom: 10px;
+}
+.fry {
+width: 228%;
+}
+.map {
+height: 420px;
+width: 285px;
+padding-bottom: 12px;
+}
+.form-group {
+text-align: center;
+width: 100%;
+}
+.btn-secondary {
+margin-left: 35px;
+}
+.input {
+width: 100%;
+}
+form {
+width: 100%;
+}
+}
 @media screen and (max-width: 600px) {
-    .container-fluid {
-        padding: 2% 12%;
-    }
-    .row.title p {
-        font-size: 16px;
-        line-height: 21px;
-    }
-    .not,
-    .title-image {
-        display: none;
-    }
-    h2 {
-        text-align: left;
-        padding-top: 5%;
-        padding-bottom: 32px;
-        font-size: 24px;
-    }
-    .abt-p {
-        padding-right: 1rem;
-    }
-    #title-text h1 {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 43px;
-        line-height: 105.3%;
-        /* or 51px */
-    }
-    .image-text {
-        width: 307.92px;
-    }
-    .no {
-        margin-bottom: 5px;
-        margin-top: -32px;
-        width: 90%;
-        border-radius: 20px 72px 0px 980px;
-        padding-bottom: 72px;
-    }
-    #title-text {
-        padding: 32% 0;
-    }
-    .port-img {
-        display: none;
-    }
-    .w-100 {
-        height: 430px;
-    }
-    .text-bottom {
-        position: absolute;
-        left: 8px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 11px;
-        line-height: 105.3%;
-        /* or 14px */
-        letter-spacing: 0.615em;
-        text-align: center;
-        text-transform: uppercase;
-        height: 15.73px;
-        top: 376.16px;
-        color: var(--white);
-    }
-    .text-bottom-2-2 {
-        position: absolute;
-        left: 8px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 11px;
-        /* or 14px */
-        text-align: left;
-        top: 356.16px;
-        color: var(--white);
-    }
-    .text-bottom-2-1 {
-        color: #006CFF;
-        left: 5px;
-        position: absolute;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 26px;
-        /* or 14px */
-        text-align: left;
-        top: 376.16px;
-    }
-    .arrow-black-right {
-        top: 376.16px;
-        color: var(--white);
-        position: absolute;
-        font-style: normal;
-        right: 10px;
-        font-size: 16px;
-    }
-    .top-text {
-        position: absolute;
-        left: 14px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 23px;
-        line-height: 105.3%;
-        /* or 38px */
-        letter-spacing: 0.03em;
-        text-align: left;
-        width: 184.17px;
-        height: 137.96px;
-        top: 66.56px;
-        color: var(--white);
-    }
-    #deals {
-        margin: 0;
-    }
-    .deals-logo {
-        display: inline-block;
-        margin: 20px 0;
-    }
-    .dea {
-        display: none;
-    }
-    .dealer {
-        width: 430px
-    }
-    .gallery {
-        width: 100%;
-    }
-    .dry {
-     margin-left: 12px;
-    width: 290px;}
-    .fry {
-        width: 293px;
-        margin-left:20px;    
-    }
-    .try {
-        height: 302px;
-    }
-    .trry {
-        height: 270px;
-    }
-    .gry {
-        
-            width: 291px;
-    margin-left: 24px;
-        padding-bottom: 10px;
-    }
-    .map {
-        height: 420px;
-        width: 250px;
-        padding-bottom: 12px;
-    }
-    .form-group {
-        text-align: center;
-        width: 100%;
-    }
-    .btn-secondary {
-        margin-left: 35px;
-    }
-    .input {
-        width: 100%;
-    }
-    form {
-        width: 100%;
-    }
+.container-fluid {
+padding: 2% 12%;
+}
+.row.title p {
+font-size: 16px;
+line-height: 21px;
+}
+.not,
+.title-image {
+display: none;
+}
+h2 {
+text-align: left;
+padding-top: 5%;
+padding-bottom: 32px;
+font-size: 24px;
+}
+.abt-p {
+padding-right: 1rem;
+}
+#title-text h1 {
+font-style: normal;
+font-weight: 600;
+font-size: 43px;
+line-height: 105.3%;
+/* or 51px */
+}
+.image-text {
+width: 307.92px;
+}
+.no {
+margin-bottom: 5px;
+margin-top: -32px;
+width: 90%;
+border-radius: 20px 72px 0px 980px;
+padding-bottom: 72px;
+}
+#title-text {
+padding: 32% 0;
+}
+.port-img {
+display: none;
+}
+.w-100 {
+height: 430px;
+}
+.text-bottom {
+position: absolute;
+left: 8px;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 105.3%;
+/* or 14px */
+letter-spacing: 0.615em;
+text-align: center;
+text-transform: uppercase;
+height: 15.73px;
+top: 376.16px;
+color: var(--white);
+}
+.text-bottom-2-2 {
+position: absolute;
+left: 8px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+/* or 14px */
+text-align: left;
+top: 356.16px;
+color: var(--white);
+}
+.text-bottom-2-1 {
+color: #006CFF;
+left: 5px;
+position: absolute;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+/* or 14px */
+text-align: left;
+top: 376.16px;
+}
+.arrow-black-right {
+top: 376.16px;
+color: var(--white);
+position: absolute;
+font-style: normal;
+right: 10px;
+font-size: 16px;
+}
+.top-text {
+position: absolute;
+left: 14px;
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 105.3%;
+/* or 38px */
+letter-spacing: 0.03em;
+text-align: left;
+width: 184.17px;
+height: 137.96px;
+top: 66.56px;
+color: var(--white);
+}
+#deals {
+margin: 0;
+}
+.deals-logo {
+display: inline-block;
+margin: 20px 0;
+}
+.dea {
+display: none;
+}
+.dealer {
+width: 430px
+}
+.gallery {
+width: 100%;
+}
+.dry {
+margin-left: 12px;
+width: 290px;}
+.fry {
+width: 293px;
+margin-left:21px;    
+}
+.try {
+height: 302px;
+}
+.trry {
+height: 270px;
+}
+.gry {
+width: 291px;
+margin-left: 24px;
+padding-bottom: 10px;
+}
+.map {
+height: 420px;
+width: 250px;
+padding-bottom: 12px;
+}
+.form-group {
+text-align: center;
+width: 100%;
+}
+.btn-secondary {
+margin-left: 35px;
+}
+.input {
+width: 100%;
+}
+form {
+width: 100%;
+}
 }
