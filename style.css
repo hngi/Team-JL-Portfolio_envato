@@ -491,10 +491,11 @@ h2 {
         width: 100%;
     }
     .dry {
-        width: 457px;
-    }
+     margin-left: 12px;
+    width: 290px;}
     .fry {
         width: 293px;
+        margin-left:20px'    
     }
     .try {
         height: 302px;
@@ -503,7 +504,9 @@ h2 {
         height: 270px;
     }
     .gry {
-        width:293px;
+        
+            width: 291px;
+    margin-left: 24px;
         padding-bottom: 10px;
     }
     .map {
