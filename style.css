@@ -43,9 +43,21 @@ body {
     line-height: 28px;
 }
 
+.try {
+    height: 500px;
+}
+
+.trry {
+    height: 501px;
+}
+
+.gallery {
+    width: 96%;
+}
+
 .title-image {
     width: 100%;
-    height: 90%;
+    height: 99%;
 }
 
 #title-text {
@@ -155,9 +167,9 @@ h2 {
 }
 
 .port-img {
-    height: 560.3px;
+    height: 600.3px;
     width: 399.37px;
-    padding:1rem;
+    padding: 2rem;
 }
 
 #deals {
@@ -166,7 +178,7 @@ h2 {
 }
 
 .deals-logo {
-    margin: 2px 72px;
+    padding-right: 12px;
     padding-bottom: 22px;
 }
 
@@ -182,7 +194,12 @@ h2 {
     width: 100%;
 }
 
-@media(min-width:700px) {
+.col-lg form {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+@media screen and (min-width:1054px) {
     .no {
         display: none;
     }
@@ -194,7 +211,163 @@ h2 {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width: 992px) and (min-width:620px) {
+    .container-fluid {
+        padding: 2% 12%;
+    }
+    .row.title p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .not,
+    .title-image {
+        height: 98%;
+    }
+    .no {
+        display: none;
+    }
+    h2 {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 32px;
+        font-size: 24px;
+    }
+    .abt-p {
+        padding-right: 1rem;
+    }
+    #title-text h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 105.3%;
+        /* or 51px */
+    }
+    .image-text {
+        width: 307.92px;
+    }
+    .no {
+        margin-bottom: 5px;
+        margin-top: -32px;
+        width: 90%;
+        border-radius: 20px 72px 0px 980px;
+        padding-bottom: 72px;
+    }
+    #title-text {
+        padding: 135% 7px;
+    }
+    .port-img {
+        display: none;
+    }
+    .w-100 {
+        height: 741px;
+    }
+    .text-bottom {
+        position: absolute;
+        left: 8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 105.3%;
+        /* or 14px */
+        letter-spacing: 0.615em;
+        text-align: center;
+        text-transform: uppercase;
+        height: 15.73px;
+        top: 376.16px;
+        color: var(--white);
+    }
+    .text-bottom-2-2 {
+        position: absolute;
+        left: 8px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        /* or 14px */
+        text-align: left;
+        top: 356.16px;
+        color: var(--white);
+    }
+    .text-bottom-2-1 {
+        color: #006CFF;
+        left: 5px;
+        position: absolute;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        /* or 14px */
+        text-align: left;
+        top: 376.16px;
+    }
+    .arrow-black-right {
+        top: 376.16px;
+        color: var(--white);
+        position: absolute;
+        font-style: normal;
+        right: 10px;
+        font-size: 16px;
+    }
+    .top-text {
+        position: absolute;
+        left: 14px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 53px;
+        line-height: 105.3%;
+        /* or 38px */
+        letter-spacing: 0.03em;
+        text-align: left;
+        width: 184.17px;
+        height: 37.96px;
+        top: 66.56px;
+        color: var(--white);
+    }
+    #deals {
+        margin: 0;
+    }
+    .deals-logo {
+        display: inline-block;
+        margin: 20px 0;
+    }
+    .dea {
+        display: none;
+    }
+    img.d-block.w-1oo.dealer {
+        width: 430px
+    }
+    .gallery {
+        width: 100%;
+    }
+    .dry {
+        width: 107%;
+    }
+    .gry {
+        width: 168%;
+        padding-bottom: 10px;
+    }
+    .fry {
+        width: 228%;
+    }
+    .map {
+        height: 420px;
+        width: 285px;
+        padding-bottom: 12px;
+    }
+    .form-group {
+        text-align: center;
+        width: 100%;
+    }
+    .btn-secondary {
+        margin-left: 35px;
+    }
+    .input {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .container-fluid {
         padding: 2% 12%;
     }
@@ -328,6 +501,9 @@ h2 {
     }
     .btn-secondary {
         margin-left: 35px;
+    }
+    .input {
+        width: 100%;
     }
     form {
         width: 100%;
