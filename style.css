@@ -1,0 +1,195 @@
+body {
+    font-family: 'Work sans';
+}
+
+#title {
+    background-color: #ffff;
+}
+
+.container-fluid {
+    padding: 2% 7%;
+}
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    letter-spacing: 0.003em;
+    color: #000000;
+}
+
+.row.title {
+    background: url("./image/image/Frame\ 3\ \(1\).jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.row.title p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.title-image {
+    width: 100%;
+    height: 90%;
+}
+
+#title-text {
+    padding: 17% 0;
+}
+
+#title-text h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 105.3%;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 105.3%;
+    /* or 25px */
+    text-align: center;
+    letter-spacing: 0.53em;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+#about {
+    padding-bottom: 2%;
+}
+
+.about-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: justify;
+    padding: 17% 0;
+}
+
+.btn {
+    border: 2px solid #006CFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #006CFF;
+}
+
+.btn:hover {
+    background: #006aff80;
+    color: #fff;
+}
+
+.image-text {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.text-bottom {
+    position: absolute;
+    left: 90px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 105.3%;
+    /* or 14px */
+    letter-spacing: 0.615em;
+    text-align: center;
+    text-transform: uppercase;
+    height: 15.73px;
+    top: 496.16px;
+}
+
+.top-text {
+    position: absolute;
+    left: 76px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 105.3%;
+    /* or 38px */
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 304.17px;
+    height: 137.96px;
+    top: 66.56px;
+}
+
+.arrow-black {
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    border-width: 10px;
+}
+
+.port {
+    padding-right: 4rem;
+}
+
+.port-img {
+    height: 560.3px;
+    width: 399.37px;
+}
+
+#deals {
+    text-align: center;
+    margin: 132px 132px 20px 0px;
+}
+
+.deal-img {
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
+
+.deals-logo {
+    margin: 0 72px;
+}
+
+@media (max-width:600px) {
+    .container-fluid {
+        padding: 2% 12%;
+    }
+    .row.title p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .not,
+    .title-image {
+        display: none;
+    }
+    h2 {
+        text-align: left;
+        padding-top: 5%;
+    }
+    #title-text h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 105.3%;
+        /* or 51px */
+    }
+    .image-text {
+        width: 307.92px;
+    }
+    .no {
+        display: none;
+    }
+}
