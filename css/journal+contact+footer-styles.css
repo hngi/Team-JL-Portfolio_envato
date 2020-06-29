@@ -25,10 +25,10 @@
 }
 
 .md-form input[type="text"]:not(.browser-default):focus:not([readonly])+label{
-    color: #f4f4f4!important;
+    color: #fefefe!important;
 }
 .md-form textarea[type="text"]:not(.browser-default):focus:not([readonly])+label{
-    color: #f4f4f4!important;
+    color: #fefefe!important;
 }
 
 .form-control:focus{
