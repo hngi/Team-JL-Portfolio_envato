@@ -488,16 +488,19 @@ h2 {
         width: 430px
     }
     .try {
-        height: 394px;
+        height: 302px;
     }
     .trry {
-        height: 353px;
+        height: 270px;
     }
     .gry {
         padding-bottom: 10px;
     }
     .gallery {
         width: 100%;
+    }
+    .dry {
+        width: 320px;
     }
     .fry {
         width: 349px;
