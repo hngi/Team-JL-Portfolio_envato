@@ -48,6 +48,7 @@ body{
 
 .jumb-img{
     margin: 2%;
+    border-radius: 50%;
 }
 .introduction{
     font-size: 1.3vw;
