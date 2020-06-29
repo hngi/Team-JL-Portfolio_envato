@@ -9,10 +9,10 @@
   <meta name="author" content="">
 
  
-   <link rel="stylesheet" href="./global+home-styles.css">
-   <link rel="stylesheet" href="./portfolio+about-me-styles.css">
-   <link rel="stylesheet" href="./services+testimonials+clients-styles.css">
-   <link rel="stylesheet" href="./journal+contact+footer-styles.css">
+   <link rel="stylesheet" href="./css/global+home-styles.css">
+   <link rel="stylesheet" href="./css/portfolio+about-me-styles.css">
+   <link rel="stylesheet" href="./css/services+testimonials+clients-styles.css">
+   <link rel="stylesheet" href="./css/journal+contact+footer-styles.css">
 <!-- Bootstrap core CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
@@ -92,47 +92,48 @@
     </div>
     </div>
 
-   
-<!-- <div></div> -->
-    <div class="row mx-auto image-gallery">
+  </section>
 
-      <div class="col-md gallery-column px-0" style="border-left: 1px solid #777777;">
-        <h3 style="text-align: left; font-weight: 400;padding-left: 5%;">Portfolio</h3>
+
+  <section class="bordered-content mx-auto ">
+<section class=" row image-gallery ml-0" >
+
+      <div class="col-md-4 gallery-column " >
+        <h3 style="text-align: left; font-weight: 500;padding-left: 5%;">Portfolio</h3>
         <div class="gallery-image-box">
-          <img class="img-fluid" src="./assets/img/gallery/shoe.png">
+          <img class="img-fluid w-100" src="./assets/img/gallery/shoe.png">
         </div>
         <div class="gallery-image-box" >
-          <img class="img-fluid" src="./assets/img/gallery/perfume.png">
+          <img class="img-fluid w-100" src="./assets/img/gallery/perfume.png">
         </div>
-        <div class="gallery-image-box" style="border-bottom: none;">
-          <img class="img-fluid" src="./assets/img/gallery/stand-woman.png">
-        </div>
-      </div>
-
-
-      <div class="col-md gallery-column px-0">
-        <h3 style="text-align: left; font-weight: 400;">&nbsp;</h3>
-        <div class="gallery-image-box">
-          <img class="img-fluid" src="./assets/img/gallery/face-woman.png">
-        </div>
-        <div class="gallery-image-box" style="border-bottom: none;">
-          <img class="img-fluid" src="./assets/img/gallery/tunnel.png">
+        <div class="gallery-image-box gallery-image-bottom-box" >
+          <img class="img-fluid w-100" src="./assets/img/gallery/stand-woman.png">
         </div>
       </div>
 
-      <div class="col-md gallery-column px-0">
-        <h3 style="text-align: left; font-weight: 400;">&nbsp;</h3>
+
+      <div class="col-md-4 gallery-column gallery-column-bordered">
+        <h3 style="text-align: left; font-weight: 500;">&nbsp;</h3>
         <div class="gallery-image-box">
-          <img class="img-fluid" src="./assets/img/gallery/dinner.png">
+          <img class="img-fluid w-100" src="./assets/img/gallery/face-woman.png">
+        </div>
+        <div class="gallery-image-box gallery-image-bottom-box" >
+          <img class="img-fluid w-100" src="./assets/img/gallery/tunnel.png">
+        </div>
+      </div>
+
+      <div class="col-md-4 gallery-column ">
+        <h3 style="text-align: left; font-weight: 500;">&nbsp;</h3>
+        <div class="gallery-image-box">
+          <img class="img-fluid w-100" src="./assets/img/gallery/dinner.png">
         </div>
         <div class="gallery-image-box">
-          <img class="img-fluid" src="./assets/img/gallery/car.png">
+          <img class="img-fluid w-100" src="./assets/img/gallery/car.png">
         </div>
-        <div class="gallery-image-box" style="border-bottom: none;">
-          <img class="img-fluid" src="./assets/img/gallery/glass.png">
+        <div class="gallery-image-box" style="border-bottom: none;" >
+          <img class="img-fluid w-100" src="./assets/img/gallery/glass.png">
         </div>
       </div> 
-    </div>
 
 </section>
  
@@ -141,30 +142,34 @@
 
   <!-- About Me -->
   
-    <section class="container row about-me mx-auto ">
-     <div class="row"> <h3 class="col">About Me</h3></div>
-     <div class="row pt-3">
-      <div class="col-sm-5 p-3">
-        <div>
-          <img class="img-fluid" src="assets/img/about-me.png">
+    <section class="container mb-5 row about-me ">
+     <div class="row" style="padding: 21px 21px"> <h3 class="col section-title">About Me</h3></div>
+     <div class="row pl-3 pt-3">
+      <div class="col-sm-5 pr-5 p-3" >
+        <div class="pb-4">
+          <img class="img-fluid p-2  about-me-image" src="assets/img/about-me.png">
         </div>
-          <p>
+          <p class="about-me-text">
             Joseph Kalu is an international award winning Nigerian Photographer. He does wedding, portraits, fashion, events, and travel Photography.
           </p>
         </div>
         <div class="col-sm-7">
-          <ul class="list-unstyled about-me-list">
+          <ul class="list-unstyled about-me-list mt-3 mb-0">
             <li class="about-me-item">
               Photographer
+              <div class=" line-1"></div>
             </li>
-            <li class="about-me-item">
+            <li class="about-me-item line-2">
               Products
+              <div class=" line-2"></div>
             </li >
-            <li class="about-me-item">
+            <li class="about-me-item line-1">
               Conferences
+              <div class=" line-1"></div>
             </li>
-            <li class="about-me-item">
+            <li class="about-me-item line-2">
               Events
+              <div class=" line-2"></div>
             </li>
           </ul>
           <p class="lead">
@@ -183,18 +188,18 @@
     <section class="row services mx-auto my-5" >
 
     <div class="services-column col-sm-4">
-      <h3 class="pb-3">Services</h3> 
-      <h6>Photographer</h6>
+      <h3 class="pb-5 section-title">Services</h3> 
+      <h6 class="pb-2" style="font-weight: 500;">Photographer</h6>
+      <p> The best photography is one taken with the best prefessional behind the camera. I do portrait, landscape etc </p>
+    </div>
+    <div class="services-column services-column-bordered col-sm-4">
+      <h3 class="pb-5 filler">&nbsp;</h3>
+      <h6 class="pb-2"  style="font-weight: 500;">Product</h6>
       <p> The best photography is one taken with the best prefessional behind the camera. I do portrait, landscape etc </p>
     </div>
     <div class="services-column col-sm-4">
-      <h3 class="pb-3">&nbsp;</h3>
-      <h6>Product</h6>
-      <p> The best photography is one taken with the best prefessional behind the camera. I do portrait, landscape etc </p>
-    </div>
-    <div class="services-column col-sm-4">
-      <h3 class="pb-3">&nbsp;</h3>
-      <h6>Events and Conferences</h6>
+      <h3 class="pb-5 filler">&nbsp;</h3>
+      <h6 class="pb-2" style="font-weight: 500;">Events and Conferences</h6>
       <p> The best photography is one taken with the best prefessional behind the camera. I do portrait, landscape etc </p>
     </div>
 
@@ -206,17 +211,32 @@
 
       <!-- Clients -->
 
-     <section class="container clients mx-auto my-5" >
-      <div class="row mb-4"><h3 class="col">Clients</h3></div>
+     <section class="clients px-3  my-5" >
+      <div class="row mb-4"><h3 class="col section-title">Clients</h3></div>
 
       <div class="row d-flex clients-row flex-row">
-       <img src="assets/img/clients/Apple.png">
-       <img src="assets/img/clients/beats.png">
-       <img src="assets/img/clients/telegram.png">
-       <img src="assets/img/clients/Twitter.png">
-       <img src="assets/img/clients/Tesla.png">
-       <img src="assets/img/clients/CNN.png">
-       <img src="assets/img/clients/Louis Vuitton.png">
+        <div class="col-3-sm client-imagebox">
+          <img class="img-fluid" src="assets/img/clients/beats.png">
+        </div>
+      <div class="col-3-sm client-imagebox">
+        <img class="img-fluid" src="assets/img/clients/Tesla.png">
+      </div>
+     <div class="col-3-sm client-imagebox ">
+      <img class="img-fluid" src="assets/img/clients/telegram.png">
+     </div>
+     <div class="col-3-sm client-imagebox">
+      <img class="img-fluid" src="assets/img/clients/Twitter.png">
+     </div>
+     <div class="col-3-sm client-imagebox">
+      <img class="img-fluid" src="assets/img/clients/Apple.png">
+     </div>
+     <div class="col-3-sm client-imagebox">
+      <img class="img-fluid" src="assets/img/clients/CNN.png">
+     </div>
+      <div class="col-3-sm client-imagebox">
+        <img class="img-fluid" src="assets/img/clients/Louis Vuitton.png">
+      </div>
+       
       </div>
      </section>
 
@@ -224,44 +244,44 @@
      
          <!-- Testimonials -->
 
-      <section  style="height: auto;" class="container testimonials mx-auto my-5">
+      <section  style="height: auto;" class="px-3 testimonials mx-auto my-5">
 
-      <div class="row mb-3"><h3>Testimonials</h3></div>
+      <div class="row mb-3"><h3 class="section-title pl-3">Testimonials</h3></div>
 
-      <div class="row  testimonials-row">
+      <div class="row px-3 testimonials-row">
 
-        <div class=" testimonial-column col-md-4 pt-4">
-          <div class="w-100 testimonial-image">
+        <div class=" testimonial-column t1  d-flex col-md-4 pt-4 pl-0">
+          <div class=" testimonial-image">
             <img style="width: 100px;" class="img-fluid " src="assets/img/avatar/avatar1.png">
           </div>
 
-          <div class="testimonial-box  mr-5  px-3 pb-3">
-            <p class="pt-5">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
+          <div class="testimonial-box px-3 pb-3">
+            <p class="pt-5 pb-4">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
             <span>Lizzy Emma </span>
           </div>
          
         </div>
 
-        <div class=" testimonial-column col-md-4 pt-4">
-          <div class="w-100 testimonial-image">
+        <div class=" testimonial-column t2  d-flex col-md-4 pt-4">
+          <div class="testimonial-image">
             <img style="width: 100px;" class="img-fluid " src="assets/img/avatar/avatar2.png">
           </div>
           
-          <div class="testimonial-box mx-3 px-3 pb-3">
-            <p class="pt-5">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
-            <span>Lizzy Emma </span>
+          <div class="testimonial-box px-3 pb-3">
+            <p class="pt-5 pb-4">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
+            <span>Joey Adam </span>
           </div>
          
         </div>
 
-        <div class=" testimonial-column col-md-4 pt-4">
-          <div class="w-100 testimonial-image">
+        <div class=" testimonial-column t3 d-flex col-md-4 pt-4 pr-0">
+          <div class="testimonial-image">
             <img style="width: 100px;" class="img-fluid " src="assets/img/avatar/avatar3.png">
           </div>
           
-          <div class="testimonial-box ml-5 px-3 pb-3">
-            <p class="pt-5">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
-            <span>Lizzy Emma </span>
+          <div class="testimonial-box  px-3 pb-3">
+            <p class="pt-5 pb-4">The best photographer I’ve had to work with, I recommend him anyday anytime for your service</p>
+            <span>Donald Biden </span>
           </div>
          
         </div>
@@ -278,7 +298,7 @@
          <section  class="container row journal mx-auto py-5" >
     
           <div class="col-8 journal-image-pane">
-            <h3>My Journal</h3>
+            <h3 class="section-title">My Journal</h3>
             <div class="row journal-image-box  pb-5">
               <div class="d-flex align-items-end">
                 <img class="img-fluid px-3" src="./assets/img/journal/burger.png">
@@ -335,8 +355,10 @@
   
         
         </section>
-
-      <!--/Journal -->
+    <!--/Journal -->
+  </section>
+    <!--/Bordered Content -->
+  
 
        <!--Contact -->
   

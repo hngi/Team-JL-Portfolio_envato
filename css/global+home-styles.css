@@ -1,8 +1,8 @@
 body {  
-  background: #000!important;
+  background-color: #000000!important;
   font-family: 'Poppins', sans-serif!important;
   color: #F4F4F4!important;
-  background-image: url(./assets/img/cover-bg.png)!important ;
+  background-image: url(./assets/img/cover-bg.png) ;
   background-repeat: no-repeat!important;
 }
 
@@ -18,9 +18,9 @@ a:activegit {
     color: #FFD4FF!important;
 }
 
-/* body main section{
-    max-width: 90vw!important;
-} */
+.section-title{
+    font-weight: 500;
+}
 
 .masthead{
     margin-bottom: 15vh;
@@ -85,14 +85,15 @@ letter-spacing: 0.5px;
 
 
 @media (max-width: 576px){
-
+    body{
+        font-size: 12px!important;
+        background-image: url(./assets/img/mobile-home.png)!important ;
+    }
  
     #brand{
         display: none;
     }
-    .body{
-        font-size: 12px!important;
-    }
+   
     .home-container{
         max-width: 95%;
     }
