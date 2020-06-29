@@ -487,8 +487,20 @@ h2 {
     .dealer {
         width: 430px
     }
+    .try {
+        height: 394px;
+    }
+    .trry {
+        height: 353px;
+    }
+    .gry {
+        padding-bottom: 10px;
+    }
     .gallery {
-        width: 90%;
+        width: 100%;
+    }
+    .fry {
+        width: 349px;
     }
     .map {
         height: 420px;
