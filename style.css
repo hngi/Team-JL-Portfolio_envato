@@ -491,10 +491,10 @@ h2 {
         width: 100%;
     }
     .dry {
-        width: 320px;
+        width: 274px;
     }
     .fry {
-        width: 349px;
+        width: 293px;
     }
     .try {
         height: 302px;
@@ -503,12 +503,12 @@ h2 {
         height: 270px;
     }
     .gry {
-        width:300px;
+        width:293px;
         padding-bottom: 10px;
     }
     .map {
         height: 420px;
-        width: 285px;
+        width: 250px;
         padding-bottom: 12px;
     }
     .form-group {
