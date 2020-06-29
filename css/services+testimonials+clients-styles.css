@@ -36,7 +36,7 @@
 }
 
 .testimonial-column{
-   min-height: 50vh; 
+   min-height: 40vh; 
     display: inline-block; 
 }
 
@@ -87,10 +87,10 @@
 
 
 
-  @media (max-width: 576px){
+  @media (max-width: 620px){
   
     .services-column-bordered{
-        border-right: none;
+        border: none;
     }
     .services .filler{
         height: 0px;

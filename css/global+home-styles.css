@@ -1,8 +1,11 @@
+html{
+    scroll-behavior: smooth!important;
+}
 body {  
   background-color: #000000!important;
   font-family: 'Poppins', sans-serif!important;
   color: #F4F4F4!important;
-  background-image: url(./assets/img/cover-bg.png) ;
+  background-image: url(/assets/img/cover-bg.png)!important ;
   background-repeat: no-repeat!important;
 }
 
@@ -84,10 +87,10 @@ letter-spacing: 0.5px;
 
 
 
-@media (max-width: 576px){
+@media (max-width:602px){
     body{
         font-size: 12px!important;
-        background-image: url(./assets/img/mobile-home.png)!important ;
+        background-image: url(/assets/img/mobile-home.png)!important ;
     }
  
     #brand{
