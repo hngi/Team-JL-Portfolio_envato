@@ -7,6 +7,7 @@ body {
   color: #fefefe!important;
   background-image: url(/assets/img/cover-bg.png)!important ;
   background-repeat: no-repeat!important;
+  position: relative;
 }
 
 /* Links-global */
@@ -17,8 +18,12 @@ a{
 
 a:focus,
 a:hover,
-a:activegit {
+a:active {
     color: #FFD4FF!important;
+}
+main section,
+main section section{
+padding-top: 10vh;
 }
 
 .section-title{
@@ -35,6 +40,10 @@ a:activegit {
 .navbar .nav-item .nav-link{
     font-size: 1rem;
     line-height: 1.5rem;
+}
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link.active{
+color:#aa66cc!important;
 }
 
 .navbar-brand{
@@ -124,3 +133,20 @@ letter-spacing: 0.5px;
         font-size: 20px!important;
     }
 }
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: black!important;
+    }
+}
+
+  
+  .top-nav-collapse {
+    background-color: black; }
+  
+  /* Adding color to the Navbar on mobile */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: black; } }
+  

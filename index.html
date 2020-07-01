@@ -28,18 +28,18 @@
 
 </head>
 
-<body class="" >
+<body data-spy="scroll" data-target="#home-navbar" >
 
   <header class="masthead" >
-    <nav class="navbar navbar-expand-md navbar-dark  ">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar" id="home-navbar">
      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" style="color: white;"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto ">
-          <li class="nav-item active">
-            <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav nav ml-auto ">
+          <li class="nav-item">
+            <a class="nav-link " href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about-me">About Me</a>
@@ -49,7 +49,7 @@
           </li>
          
         </ul>
-        <a class="navbar-brand px-5 text-secondary " id="brand" href="#">Joseph</a>
+        <a class="navbar-brand px-5 text-secondary " id="brand" href="#home">Joseph</a>
       
           <ul class="navbar-nav mr-auto ">
             <li class="nav-item">
@@ -66,10 +66,10 @@
       </div>
     </nav>
   </header>
-  <main class="mx-auto container-fluid clearfix">
+  <main class="mx-auto container-fluid clearfix" >
    <!-- Home -->
 
-  <section class="home-container row  d-flex  pt-3 px-0 flex-column text-center">
+  <section class="home-container row  d-flex  pt-3 px-0 flex-column text-center" id="home">
     <div class="d-flex flex-row">
       <span class=""></span>
       <div class="inner cover  pt-5 mx-auto main-bodyText text-center">
@@ -99,7 +99,7 @@
 <section class=" row image-gallery ml-0" id="portfolio" >
 
       <div class="col-md-4 gallery-column " >
-        <h3 style="text-align: left; font-weight: 500;padding-left: 5%;">Portfolio</h3>
+        <h3 style="text-align: left; font-weight: 500;padding-left: 5%;" >Portfolio</h3>
         <div class="gallery-image-box">
           <img class="img-fluid w-100" src="./assets/img/gallery/shoe.png">
         </div>
@@ -142,8 +142,8 @@
 
   <!-- About Me -->
   
-    <section class="container mb-5 row about-me " id="about-me">
-     <div class="row" style="padding: 23px 23px"> <h3 class="col section-title">About Me</h3></div>
+    <section class="container mb-5 row about-me" id="about-me">
+     <div class="row" style="padding: 23px 23px"> <h3 class="col section-title" >About Me</h3></div>
      <div class="row pl-3 pt-3">
       <div class="col-sm-5 pr-5 p-4" >
         <div class="pb-4">
