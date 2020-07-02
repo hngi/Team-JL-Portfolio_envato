@@ -203,13 +203,15 @@
                                             padding: 0 10px;
                                         }
                                         
-                                        .column-about,
-                                        .column-contact {
+                                        .column-about {
                                             float: left;
                                             width: 50%;
                                             padding: 5px;
                                             padding-left: 1rem;
-                                        }
+                                        }.
+                                        .column-contact{
+                                          width:100%;
+                                          margin-left:1rem;}
                                         
                                         .row-about::after,
                                         .column-contact::after,
