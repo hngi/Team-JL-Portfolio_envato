@@ -21,6 +21,11 @@ a:hover,
 a:active {
     color: #FFD4FF!important;
 }
+
+a.btn,a.btn:focus,a.btn:hover,a.btn:active
+ {
+    color: white!important;
+}
 main section,
 main section section{
 padding-top: 10vh;
@@ -146,7 +151,4 @@ letter-spacing: 0.5px;
     background-color: black; }
   
   /* Adding color to the Navbar on mobile */
-  @media only screen and (max-width: 768px) {
-    .navbar {
-      background-color: black; } }
-  
+

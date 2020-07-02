@@ -87,10 +87,14 @@
 
 
 
-  @media (max-width: 620px){
+  @media (max-width: 770px){
   
     .services-column-bordered{
-        border: none;
+        border-right: none;
+        border-left: none;
+        border-top: 1px solid #777777;
+        border-bottom: 1px solid #777777;
+     
     }
     .services .filler{
         height: 0px;
@@ -110,7 +114,7 @@
     }
     .testimonial-column{
 
-        min-height: 36vh;
+        min-height: 320px;
       
       }
     .testimonial-column.t1,
