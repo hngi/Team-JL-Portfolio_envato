@@ -8,7 +8,7 @@
     color: #c9c9c9 ;
     z-index: 2;
     font-size: 14px!important;
-    min-width: 300px;
+    min-width: 80%;
 }
 .journal-image-text h6{
     font-size: 18px;
@@ -49,7 +49,7 @@
     color: #999999;
 }
 
-@media (max-width: 620px){
+@media (max-width: 770px){
     .journal-image-pane-bordered{
         border-right: none ;
     }  
