@@ -1,368 +1,390 @@
-                                        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,800&display=swap');
-                                        * {
-                                            margin: 0;
-                                            padding: 0;
-                                            box-sizing: border-box;
-                                        }
-                                        
-                                        body {
-                                            font-family: 'Work Sans', sans-serif;
-                                        }
-                                        
-                                        header {
-                                            background-image: url("./image/image/Frame\ 3\ \(1\).jpg");
-                                            height: 100%;
-                                            background-position: center;
-                                            background-repeat: no-repeat;
-                                            background-size: cover;
-                                        }
-                                        
-                                        .navbar {
-                                            padding-bottom: 1rem;
-                                            z-index: 2;
-                                            position: sticky;
-                                            top: 0;
-                                            background-color: #ffff;
-                                        }
-                                        
-                                        p {
-                                            font-style: normal;
-                                            font-weight: normal;
-                                            font-size: 16px;
-                                            line-height: 24px;
-                                        }
-                                        
-                                        .nav-text {
-                                            font-style: normal;
-                                            font-weight: normal;
-                                            font-size: 18px;
-                                            line-height: 21px;
-                                            letter-spacing: 0.3em;
-                                        }
-                                        
-                                        .title {
-                                            margin-top: 30vh;
-                                            padding-left: 1rem;
-                                        }
-                                        
-                                        .title-image {
-                                            width: 99%;
-                                            margin-left: 2rem;
-                                        }
-                                        
-                                        .title h1 {
-                                            font-style: normal;
-                                            font-weight: 600;
-                                            font-size: 96px;
-                                            line-height: 105.3%;
-                                        }
-                                        
-                                        h2 {
-                                            text-align: center;
-                                            padding-bottom: 1.5rem;
-                                            font-style: normal;
-                                            font-weight: 500;
-                                            font-size: 24px;
-                                            line-height: 105.3%;
-                                            text-align: center;
-                                            letter-spacing: 0.53em;
-                                            text-transform: uppercase;
-                                        }
-                                        
-                                        .gallery__2 {
-                                            margin-right: 0;
-                                        }
-                                        
-                                        #gallery-2,
-                                        #blog,
-                                        #portfolio,
-                                        #about,
-                                        #gallery,
-                                        #contact {
-                                            padding-top: 2rem;
-                                            padding-bottom: 2rem;
-                                            padding-left: 1rem;
-                                        }
-                                        
-                                        .row-about,
-                                        .row-portfolio,
-                                        .row-blog,
-                                        .row-g2,
-                                        .row-gllry {
-                                            padding-left: 1rem;
-                                        }
-                                        
-                                        .btn-outline {
-                                            border: 2px solid #006CFF;
-                                            color: #006CFF;
-                                            padding: 10px 50px;
-                                        }
-                                        
-                                        .column-portfolio {
-                                            float: left;
-                                            width: 33.33333%;
-                                            padding: 0 10px;
-                                            padding-left: 1rem;
-                                        }
-                                        
-                                        .about__ {
-                                            width: 100%;
-                                        }
-                                        
-                                        .p1 {
-                                            font-family: Work Sans;
-                                            font-style: normal;
-                                            font-weight: normal;
-                                            font-size: 18px;
-                                            line-height: 21px;
-                                            display: flex;
-                                            align-items: center;
-                                            letter-spacing: 0.265em;
-                                        }
-                                        
-                                        .title .h1 {
-                                            position: absolute;
-                                            width: 590px;
-                                            height: 202px;
-                                            left: 104px;
-                                            top: 226px;
-                                            font-style: normal;
-                                            font-weight: 600;
-                                            font-size: 96px;
-                                            line-height: 105.3%;
-                                            /* or 101px */
-                                        }
-                                        
-                                        .abt-p {
-                                            padding-top: 6rem;
-                                            margin-top: 30vh;
-                                            text-align: justify;
-                                            margin-left: 15px;
-                                        }
-                                        
-                                        .sponsors {
-                                            display: flex;
-                                            margin-left: auto;
-                                            margin-right: auto;
-                                            padding-top: 2rem;
-                                            padding-left: 5px;
-                                        }
-                                        
-                                        .deals-logo {
-                                            padding-left: 42px;
-                                            padding-right: 32px;
-                                        }
-                                        
-                                        .row-gllry {
-                                            display: -ms-flexbox;
-                                            /* IE10 */
-                                            display: flex;
-                                            -ms-flex-wrap: wrap;
-                                            /* IE10 */
-                                            flex-wrap: wrap;
-                                            padding: 0 4px;
-                                        }
-                                        
-                                        .column-gllry {
-                                            -ms-flex: 50%;
-                                            /* IE10 */
-                                            flex: 50%;
-                                        }
-                                        
-                                        .column-gllry img {
-                                            margin-top: 8px;
-                                            vertical-align: middle;
-                                        }
-                                        
-                                        .column-12 {
-                                            float: left;
-                                            padding: 5px;
-                                            height: 60%;
-                                        }
-                                        
-                                        .row-blog,
-                                        .row-g2,
-                                        .row-portfolio {
-                                            margin: 0 -5px;
-                                        }
-                                        
-                                        .card-blog {
-                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                                            padding: 16px;
-                                            text-align: justify;
-                                            background-color: #fff;
-                                        }
-                                        
-                                        .column-g2,
-                                        .column-blog {
-                                            float: left;
-                                            width: 50%;
-                                            padding: 0 10px;
-                                        }
-                                        
-                                        .column-about {
-                                            float: left;
-                                            width: 50%;
-                                            padding: 5px;
-                                            padding-left: 1rem;
-                                        }.
-                                        .column-contact{
-                                          width:100%;
-                                          margin-left:1rem;}
-                                        
-                                        .row-about::after,
-                                        .column-contact::after,
-                                        .row-g2:after,
-                                        .row-blog:after,
-                                        .row-portfolio:after {
-                                            content: "";
-                                            clear: both;
-                                            display: table;
-                                        }
-                                        
-                                        .input {
-                                            border: 0px solid black;
-                                            width: 100%;
-                                            padding-top: 35px;
-                                            padding-left: 11px;
-                                            border-bottom: 2px solid black;
-                                        }
-                                        
-                                        i {
-                                            color: #006CFF;
-                                            padding: 1rem;
-                                        }
-                                        
-                                        @media screen and (min-width:1026px) {
-                                            .no {
-                                                display: none;
-                                            }
-                                            .carousel.slide {
-                                                display: none;
-                                            }
-                                            #carousell {
-                                                display: none;
-                                            }
-                                        }
-                                        
-                                        @media (max-width:600px) {
-                                            .not {
-                                                display: none;
-                                            }
-                                            .about-text {
-                                                text-align: center;
-                                            }
-                                            .title-image {
-                                                display: none;
-                                            }
-                                        }
-                                        
-                                        @media screen and (max-width: 800px) {
-                                            .column-gllry {
-                                                -ms-flex: 50%;
-                                                flex: 50%;
-                                                max-width: 50%;
-                                            }
-                                        }
-                                        
-                                        @media screen and (max-width: 600px) {
-                                            header {
-                                                background-image: url(./image/image/mobile.png);
-                                            }
-                                            .title h1 {
-                                                font-style: normal;
-                                                font-weight: 600;
-                                                font-size: 48px;
-                                                line-height: 105.3%;
-                                                /* or 51px */
-                                            }
-                                            .title {
-                                                margin-top: 40vh;
-                                                padding-bottom: 100%;
-                                            }
-                                            .p1 {
-                                                font-style: normal;
-                                                font-weight: normal;
-                                                font-size: 16px;
-                                                line-height: 21px;
-                                                display: flex;
-                                                align-items: center;
-                                                letter-spacing: 0.265em;
-                                            }
-                                            .p2 {
-                                                font-style: normal;
-                                                font-weight: normal;
-                                                font-size: 18px;
-                                                line-height: 21px;
-                                            }
-                                            .column-gllry {
-                                                -ms-flex: 100%;
-                                                flex: 100%;
-                                                max-width: 100%;
-                                            }
-                                            .column-blog {
-                                                width: 100%;
-                                                display: block;
-                                                margin-bottom: 20px;
-                                            }
-                                            .column-portfolio {
-                                                width: 100%;
-                                                display: block;
-                                                margin-bottom: 20px;
-                                                display: none;
-                                            }
-                                            .no {
-                                                margin-bottom: 0px;
-                                                margin-top: -32px;
-                                                width: 70%;
-                                                border-radius: 20px 72px 0px 980px;
-                                            }
-                                            .about__ {
-                                                display: none;
-                                            }
-                                            .sponsors {
-                                                display: block;
-                                            }
-                                            .abt-p {
-                                                margin-top: 0;
-                                                padding-top: 0;
-                                                font-size: 16px;
-                                                line-height: 21px;
-                                            }
-                                            .column-g2 {
-                                                width: 100%;
-                                                display: block;
-                                                margin-bottom: 20px;
-                                            }
-                                            .column-contact,
-                                            .column-about {
-                                                width: 100%;
-                                            }
-                                        }
-                                        
-                                        @media (min-width:620px) and (max-width:800px) {
-                                            .title-image {
-                                                width: 50%;
-                                                margin-left: 23rem;
-                                                margin-top: -390px;
-                                            }
-                                            .title h1 {
-                                                font-size: 55px;
-                                            }
-                                            .title {
-                                                margin-top: 11vh;
-                                            }
-                                            .abt-p {
-                                                padding-top: 0;
-                                                margin-top: 0;
-                                            }
-                                        }
-                                        
-                                        @media (min-width:620px) and (max-width:1024px) {
-                                            #carousell {
-                                                display: none;
-                                            }
-                                            .no {
-                                                display: none;
-                                            }
-                                        }
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    color: #000;
+}
+
+header {
+    background-image: url("./image/image/Frame\ 3\ \(1\).jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background-color: #ffff;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+}
+
+.title {
+    margin-top: 20vh;
+    padding-left: 1rem;
+}
+
+.title-image {
+    width: 90%;
+    margin-left: 2rem;
+}
+
+.title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 105.3%;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 105.3%;
+    text-align: center;
+    letter-spacing: 0.53em;
+    text-transform: uppercase;
+}
+
+.gallery__2 {
+    margin-right: 0;
+}
+
+#about {
+    padding-top: 10vh;
+}
+
+.abt-p {
+    padding-top: 10px;
+}
+
+#gallery-2,
+#blog,
+#portfolio,
+
+/*#about,*/
+
+#gallery,
+#contact {
+    padding-top: 2rem;
+    /* padding-bottom: 2rem;
+    padding-left: 1rem;*/
+}
+
+
+/*.row-about,*/
+
+.row-portfolio,
+.row-blog,
+.row-gllry {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-outline {
+    border: 2px solid #006CFF;
+    color: #006CFF;
+    padding: 10px 50px;
+}
+
+.column-portfolio {
+    float: left;
+    width: 33.33333%;
+    padding: 0 10px;
+    padding-left: 1rem;
+}
+
+.about__ {
+    width: 80%;
+}
+
+.p1 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.265em;
+}
+
+.abt-p {
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.sponsors {
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.deals-logo {
+    padding-left: 42px;
+    padding-right: 32px;
+}
+
+.row-gllry {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+}
+
+.column-gllry {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.column-gllry img {
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-bottom: 11px;
+}
+
+
+/*
+
+.column-12 {
+    float: left;
+    padding: 5px;
+    height: 60%;
+}*/
+
+.row-blog,
+.row-portfolio {
+    margin: 0 -5px;
+}
+
+.card-blog {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: justify;
+    background-color: #fff;
+}
+
+
+/*.column-g2,*/
+
+.column-blog {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+
+/*.column-about {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-left: 1rem;
+}*/
+
+.column-contact {
+    float: left;
+    width: 100%;
+}
+
+.row-about::after,
+.column-contact::after,
+.row-g2:after,
+.row-blog:after,
+.row-portfolio:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.input {
+    border: 0px solid black;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 11px;
+    border-bottom: 2px solid black;
+}
+
+i {
+    color: #006CFF;
+    padding: 1rem;
+}
+
+.guard {
+    max-width: 90vw;
+}
+
+form {
+    width: 100%;
+}
+
+@media screen and (min-width:1026px) {
+    .no {
+        display: none;
+    }
+    .carousel.slide {
+        display: none;
+    }
+    #carousell {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .not {
+        display: none;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .title-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column-gllry {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-image: url(./image/image/mobile.png);
+    }
+    .title h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 105.3%;
+        /* or 51px */
+    }
+    .title {
+        margin-top: 40vh;
+        padding-bottom: 100%;
+    }
+    .p1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.265em;
+    }
+    .p2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .column-gllry {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column-blog {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .column-portfolio {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        display: none;
+    }
+    .no {
+        margin: auto;
+        width: 70%;
+        border-radius: 20px 72px 0px 980px;
+    }
+    .about__ {
+        display: none;
+    }
+    .sponsors {
+        display: none;
+    }
+    .abt-p {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 2rem;
+        padding-right: 1.2rem;
+    }
+    .column-g2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .carousel {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .column-contact,
+    .column-about {
+        width: 100%;
+    }
+}
+
+@media (min-width:620px) and (max-width:800px) {
+    .title-image {
+        width: 50%;
+        margin-left: 23rem;
+        margin-top: -390px;
+    }
+    .title h1 {
+        font-size: 55px;
+    }
+    .title {
+        margin-top: 11vh;
+    }
+    .abt-p {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+@media (min-width:620px) and (max-width:1024px) {
+    #carousell {
+        display: none;
+    }
+    .no {
+        display: none;
+    }
+}
