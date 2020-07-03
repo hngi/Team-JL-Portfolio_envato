@@ -26,6 +26,8 @@ a.btn,a.btn:focus,a.btn:hover,a.btn:active
  {
     color: white!important;
 }
+
+
 main section,
 main section section{
 padding-top: 10vh;
@@ -50,6 +52,9 @@ padding-top: 10vh;
 .navbar .nav-item .nav-link.active{
 color:#aa66cc!important;
 }
+
+.top-nav-collapse {
+    background-color: black; }
 
 .navbar-brand{
     font-weight: bold;
@@ -101,11 +106,13 @@ letter-spacing: 0.5px;
 
 
 
-@media (max-width:602px){
+@media (max-width:768px){
     body{
         font-size: 12px!important;
-        background-image: url(/assets/img/mobile-home.png)!important ;
+        /* background-image: url(/assets/img/mobile-home.png)!important ; */
     }
+    .navbar {
+        background-color: black; }
  
     #brand{
         display: none;
@@ -146,9 +153,12 @@ letter-spacing: 0.5px;
     }
 }
 
-  
-  .top-nav-collapse {
-    background-color: black; }
-  
-  /* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 600px) {
+
+body{
+    font-size: 12px!important;
+    background-image: url(/assets/img/mobile-home.png)!important ;
+}  
+
+}
 
