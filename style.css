@@ -10,7 +10,8 @@ body {
 
 /*HEADINGS*/
 h1 {
-  font-size: 5.333333rem;
+  /* font-size: 5.333333rem; */
+  font-weight: 600;
 }
 
 h2 {
@@ -26,32 +27,38 @@ p {
 }
 
 /* .navbar-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
 
 .nav-link a {
   color: #000;
 }
 
-.card-img-overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* position: relative; */
+.card-bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
 }
-.card-text {
+.flex {
   display: flex;
-  /* position: absolute;
-  top: 80px;
-  left: 0; */
+}
+.flex h3 {
+  margin-left: 5px;
+  align-self: flex-end;
+}
+
+.down-right {
+  bottom: 20px;
+  right: 30px;
+  position: absolute;
 }
 /* .carousel-inner > .carousel-item > img {
-  min-height: 300px;
-  max-height: 300px;
-  width: 100%;
-} */
+    min-height: 300px;
+    max-height: 300px;
+    width: 100%;
+  } */
 
 .carousel-item {
   min-height: 280px;
@@ -59,7 +66,7 @@ p {
 
 button {
   /* padding: 10px 10px;
-  border: 2px solid #006cff; */
+    border: 2px solid #006cff; */
   font-weight: 500;
 }
 
@@ -88,11 +95,43 @@ button {
 .third-grid {
   display: flex;
 }
+
 .portfolio-card {
-  width: 300px;
-  height: 200px;
+  position: relative;
+  color: white;
 }
 
-.portfolio-card .one {
-  background: url(./assets/group\6png);
+.card-top-left {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+/*MEDIA QUERIES*/
+/* html {
+    font-size: 1rem;
+  }
+  
+  @imedia-breakp(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1rem;
+  }
 }
