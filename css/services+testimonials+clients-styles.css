@@ -28,15 +28,9 @@
     max-width: 90vw!important;
 }
 
-.testimonials-row{
-
-  min-height: 60vh;
-    display: inline-block;
-    
-}
 
 .testimonial-column{
-   min-height: 40vh; 
+   min-height: 220px; 
     display: inline-block; 
 }
 
@@ -124,3 +118,4 @@
     }
     
 }
+
